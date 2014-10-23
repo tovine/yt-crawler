@@ -3,6 +3,6 @@ It uses youtube-dl (https://github.com/rg3/youtube-dl) by Ricardo Garcia and man
 
 Usage: playlist-crawler.py [url] [path]
         url:    can be video or playlist, default 'YouTube Top 100 Electronica playlist'
-        path:   Where to store downloaded videos, default: '/home/medlem/divskrot/flim/Electronica'
+        path:   Where to store downloaded videos, default: '/home/{username}/Electronica'
 
 Both default variables are configurable, can be edited at the top of the file - enjoy!
