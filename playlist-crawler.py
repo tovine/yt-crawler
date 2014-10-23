@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-import os, sys, subprocess
+import os, sys, subprocess, getpass
 
 # Default settings
-path = '/home/medlem/divskrot/flim/Electronica'
+path = '/home/'+getpass.getuser()+'/Electronica'
 url = 'http://www.youtube.com/playlist?list=PLFPg_IUxqnZM3uua-YwStHJ1qmlQKBnh0'
 
 if (len(sys.argv) > 2):
