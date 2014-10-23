@@ -1,0 +1,8 @@
+This is a simple script written in Python for downloading a YouTube playlist to a local folder, and keeping it in sync.
+It uses youtube-dl (https://github.com/phihag/youtube-dl) by Philipp Hagemeister - thanks for a great tool!
+
+Usage: playlist-crawler.py [url] [path]
+        url:    can be video or playlist, default 'YouTube Top 100 Electronica playlist'
+        path:   Where to store downloaded videos, default: '/home/medlem/divskrot/flim/Electronica'
+
+Both default variables are configurable, can be edited at the top of the file - enjoy!
