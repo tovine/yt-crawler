@@ -22,6 +22,7 @@ command = "youtube-dl -ie --get-id "+url+" 1> "+tmpfile
 #if os.system(command) is not 0:
 #	sys.exit("System command returned value different from 0")
 
+print('Getting video information, this might take a while depending on your connection and the size of the playlist...')
 os.system(command)
 
 def archive(filename):
