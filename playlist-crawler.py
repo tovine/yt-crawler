@@ -37,7 +37,11 @@ def archive(filename):
 		return False
 	return True
 
-files = os.listdir(path)
+if os.path.exists(path):
+	files = os.listdir(path)
+else:
+	files = []
+	os.makedirs(path, 775)
 download = []
 archived = []
 
