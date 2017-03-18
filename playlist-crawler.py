@@ -41,7 +41,7 @@ if os.path.exists(path):
 	files = os.listdir(path)
 else:
 	files = []
-	os.makedirs(path, 775)
+	os.makedirs(path, mode=0o775)
 download = []
 archived = []
 
